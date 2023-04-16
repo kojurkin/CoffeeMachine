@@ -17,5 +17,12 @@ public class Service {
             default -> throw new Exception("Wrong input");
         }
     }
+    public static void start(int input) throws Exception {
+        switch (input) {
+            case 1 -> Console.UploadResources();
+            case 2 -> Console.CoffeeMake();
+            default -> throw new Exception("Wrong input");
+        }
+    }
 
 }
