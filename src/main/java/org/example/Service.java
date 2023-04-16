@@ -21,6 +21,7 @@ public class Service {
         switch (input) {
             case 1 -> Console.UploadResources();
             case 2 -> Console.CoffeeMake();
+            case 3 -> System.out.println("Goodbye!");
             default -> throw new Exception("Wrong input");
         }
     }
