@@ -7,8 +7,6 @@
     <list default="true" id="541796ed-1fcd-4c76-8b19-6bfb9e68e6f4" name="Changes" comment="Little bit modifications">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Console.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681560784979</updated>
-      <workItem from="1681560786362" duration="13072000" />
+      <workItem from="1681560786362" duration="13938000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1681636016334</created>
@@ -88,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681640120601</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Little bit modifications">
+      <created>1681642421814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681642421814</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

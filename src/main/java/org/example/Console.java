@@ -4,14 +4,18 @@ import java.util.Scanner;
 
 public class Console {
     public static void Start() throws Exception {
-        System.out.println("______________________________");
-        System.out.println("Select one of the menu items");
-        System.out.println("1) Replenish the stock of resources");
-        System.out.println("2) Make coffee");
-        System.out.println("______________________________");
-        Scanner in = new Scanner(System.in);
-        int input = in.nextInt();
-        Service.start(input);
+        int input;
+        do {
+            System.out.println("______________________________");
+            System.out.println("Select one of the menu items");
+            System.out.println("1) Replenish the stock of resources");
+            System.out.println("2) Make coffee");
+            System.out.println("3) Close");
+            System.out.println("______________________________");
+            Scanner in = new Scanner(System.in);
+            input = in.nextInt();
+            Service.start(input);
+        } while (input != 3);
     }
 
     public static void UploadResources() throws Exception {
