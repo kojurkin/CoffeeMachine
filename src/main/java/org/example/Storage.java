@@ -32,27 +32,13 @@ public class Storage <T extends Coffee> {
         Storage.milk = Storage.milk - milk;
         Storage.water = Storage.water - water;
     }
-    public void setCoffeeBeans(int coffeeBeans) {
-        Storage.coffee = coffeeBeans;
+    public static void addCoffee(int coffee) {
+        Storage.coffee = Storage.coffee + coffee;
     }
-
-    public void setMilk(int milk) {
-        Storage.milk = milk;
+    public static void addMilk(int milk) {
+        Storage.milk = Storage.milk + milk;
     }
-
-    public void setWater(int water) {
-        Storage.water = water;
-    }
-
-    public int getCoffeeBeans() {
-        return coffee;
-    }
-
-    public int getMilk() {
-        return milk;
-    }
-
-    public int getWater() {
-        return water;
+    public static void addWater(int water) {
+        Storage.water = Storage.water + water;
     }
 }
