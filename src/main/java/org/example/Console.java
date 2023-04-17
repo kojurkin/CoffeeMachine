@@ -3,6 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class Console {
+
     public static void Start() throws Exception {
         int input;
         do {

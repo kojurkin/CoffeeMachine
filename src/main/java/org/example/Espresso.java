@@ -8,10 +8,12 @@ public class Espresso  implements Coffee{
     private Espresso() {
         Storage.spendResources(coffee, 0, water);
     }
-    public static void cook() throws Exception {
+    public static Espresso cook() throws Exception {
         if(Storage.isEnoughCoffee(coffee) && Storage.isEnoughWater(water)) {
             print();
-            new Espresso();
+            return new Espresso();
+        } else {
+            return null;
         }
     }
     public static void print() {

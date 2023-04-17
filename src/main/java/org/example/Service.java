@@ -1,6 +1,7 @@
 package org.example;
 
 public class Service {
+
     public static void makeCoffee(int input) throws Exception {
         switch (input) {
             case 1 -> Cappuccino.cook();

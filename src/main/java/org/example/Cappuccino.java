@@ -9,10 +9,12 @@ public class Cappuccino implements Coffee{
     private Cappuccino() {
         Storage.spendResources(coffee, milk, water);
     }
-    public static void cook() throws Exception {
+    public static Cappuccino cook() throws Exception {
         if(Storage.isEnoughCoffee(coffee) && Storage.isEnoughMilk(milk) && Storage.isEnoughWater(water)) {
             print();
-            new Cappuccino();
+            return new Cappuccino();
+        } else {
+            return null;
         }
     }
     public static void print() {

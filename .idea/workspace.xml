@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="541796ed-1fcd-4c76-8b19-6bfb9e68e6f4" name="Changes" comment="Little bit modifications">
+    <list default="true" id="541796ed-1fcd-4c76-8b19-6bfb9e68e6f4" name="Changes" comment="fixed close case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cappuccino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cappuccino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Espresso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +74,9 @@
       <option name="presentableId" value="Default" />
       <updated>1681560784979</updated>
       <workItem from="1681560786362" duration="14020000" />
-      <workItem from="1681645058962" duration="837000" />
+      <workItem from="1681645058962" duration="942000" />
+      <workItem from="1681708795952" duration="861000" />
+      <workItem from="1681709705590" duration="1792000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1681636016334</created>
@@ -101,16 +106,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681644994580</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed close case">
+      <created>1681646880544</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681646880544</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <MESSAGE value="Base is already" />
     <MESSAGE value="Little bit modifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little bit modifications" />
+    <MESSAGE value="fixed close case" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed close case" />
   </component>
 </project>
