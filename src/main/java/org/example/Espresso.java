@@ -2,28 +2,36 @@ package org.example;
 
 public class Espresso  implements Coffee{
 
-    private static int coffee = 12;
-    private static int water = 100;
+    private int coffee = 12;
+    private int water = 100;
+    private Storage storage;
 
-    private Espresso() {
-        Storage.spendResources(coffee, 0, water);
+    public Espresso(Storage storage) {
+        this.storage = storage;
     }
-    public static Espresso cook() throws Exception {
-        if(Storage.isEnoughCoffee(coffee) && Storage.isEnoughWater(water)) {
+    public Espresso cook() throws Exception {
+        if(storage.isEnoughCoffee(coffee) && storage.isEnoughWater(water)) {
+            storage.spendResources(coffee, 0, water);
             print();
-            return new Espresso();
+            return this;
         } else {
             return null;
         }
     }
-    public static void print() {
+    public void print() {
         System.out.println("Here is your delicious coffee");
     }
-    public static int getCoffee() {
+    @Override
+    public int getCoffee() {
         return coffee;
     }
 
-    public static int getWater() {
+    @Override
+    public int getMilk() {
+        return 0;
+    }
+    @Override
+    public int getWater() {
         return water;
     }
 }

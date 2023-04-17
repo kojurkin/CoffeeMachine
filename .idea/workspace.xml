@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="541796ed-1fcd-4c76-8b19-6bfb9e68e6f4" name="Changes" comment="Changes in Coffee types constructor">
+    <list default="true" id="541796ed-1fcd-4c76-8b19-6bfb9e68e6f4" name="Changes" comment="lowerCamelCased">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CoffeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cappuccino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cappuccino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Coffee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Espresso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Storage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +38,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -75,7 +85,7 @@
       <workItem from="1681560786362" duration="14020000" />
       <workItem from="1681645058962" duration="942000" />
       <workItem from="1681708795952" duration="861000" />
-      <workItem from="1681709705590" duration="2129000" />
+      <workItem from="1681709705590" duration="6423000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1681636016334</created>
@@ -119,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681711588910</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lowerCamelCased">
+      <created>1681729322850</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681729322850</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +159,7 @@
     <MESSAGE value="Little bit modifications" />
     <MESSAGE value="fixed close case" />
     <MESSAGE value="Changes in Coffee types constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in Coffee types constructor" />
+    <MESSAGE value="lowerCamelCased" />
+    <option name="LAST_COMMIT_MESSAGE" value="lowerCamelCased" />
   </component>
 </project>

@@ -1,16 +1,9 @@
 package org.example;
 
 public interface Coffee {
+    int getCoffee();
 
-    static int getCoffee() {
-        return 0;
-    }
+    int getMilk();
 
-    static int getMilk() {
-        return 0;
-    }
-
-    static int getWater() {
-        return 0;
-    }
+    int getWater();
 }

@@ -2,17 +2,20 @@ package org.example;
 
 public class Cappuccino implements Coffee{
 
-    private static int coffee = 12;
-    private static int milk = 60;
-    private static int water = 120;
+    private int coffee = 12;
+    private int milk = 60;
+    private int water = 120;
+    private Storage storage;
 
-    private Cappuccino() {
-        Storage.spendResources(coffee, milk, water);
+    public Cappuccino(Storage storage) {
+        this.storage = storage;
     }
-    public static Cappuccino cook() throws Exception {
-        if(Storage.isEnoughCoffee(coffee) && Storage.isEnoughMilk(milk) && Storage.isEnoughWater(water)) {
+
+    public Cappuccino cook() throws Exception {
+        if(storage.isEnoughCoffee(coffee) && storage.isEnoughMilk(milk) && storage.isEnoughWater(water)) {
+            storage.spendResources(coffee, milk, water);
             print();
-            return new Cappuccino();
+            return this;
         } else {
             return null;
         }
@@ -20,15 +23,16 @@ public class Cappuccino implements Coffee{
     public static void print() {
         System.out.println("Here is your delicious coffee");
     }
-    public static int getCoffee() {
+    @Override
+    public int getCoffee() {
         return coffee;
     }
-
-    public static int getMilk() {
+    @Override
+    public int getMilk() {
         return milk;
     }
-
-    public static int getWater() {
+    @Override
+    public int getWater() {
         return water;
     }
 }

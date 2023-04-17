@@ -3,8 +3,13 @@ package org.example;
 import java.util.Scanner;
 
 public class Console {
+    private CoffeeService service;
 
-    public static void start() throws Exception {
+    public Console(CoffeeService service) {
+        this.service = service;
+    }
+
+    public void start() throws Exception {
         int input;
         do {
             System.out.println("______________________________");
@@ -15,25 +20,28 @@ public class Console {
             System.out.println("______________________________");
             Scanner in = new Scanner(System.in);
             input = in.nextInt();
-            Service.start(input);
+            service.start(input);
         } while (input != 3);
     }
 
-    public static void uploadResources() throws Exception {
+    public void uploadResources() throws Exception {
         System.out.println("______________________________");
         System.out.println("What resource do you want to replenish?");
         System.out.println("1) Milk");
         System.out.println("2) Water");
-        System.out.println("2) Coffee");
+        System.out.println("3) Coffee");
         System.out.println("______________________________");
         Scanner in = new Scanner(System.in);
         int input = in.nextInt();
+        if(input > 3 || input < 0) {
+            throw new Exception("Wrong input");
+        }
         Scanner load = new Scanner(System.in);
         System.out.println("How much resource do you want to add?");
         int resourcesCount = load.nextInt();
-        Service.uploadResources(input, resourcesCount);
+        service.uploadResources(input, resourcesCount);
     }
-    public static void coffeeMake() throws Exception{
+    public void coffeeMake() throws Exception{
         System.out.println("______________________________");
         System.out.println("Choose which coffee you want");
         System.out.println("1) Cappuccino");
@@ -41,6 +49,6 @@ public class Console {
         System.out.println("______________________________");
         Scanner in = new Scanner(System.in);
         int input = in.nextInt();
-        Service.makeCoffee(input);
+        service.makeCoffee(input);
     }
 }
