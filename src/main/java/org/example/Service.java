@@ -20,8 +20,8 @@ public class Service {
     }
     public static void start(int input) throws Exception {
         switch (input) {
-            case 1 -> Console.UploadResources();
-            case 2 -> Console.CoffeeMake();
+            case 1 -> Console.uploadResources();
+            case 2 -> Console.coffeeMake();
             case 3 -> System.out.println("Goodbye!");
             default -> throw new Exception("Wrong input");
         }

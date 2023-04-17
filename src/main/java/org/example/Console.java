@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Console {
 
-    public static void Start() throws Exception {
+    public static void start() throws Exception {
         int input;
         do {
             System.out.println("______________________________");
@@ -19,7 +19,7 @@ public class Console {
         } while (input != 3);
     }
 
-    public static void UploadResources() throws Exception {
+    public static void uploadResources() throws Exception {
         System.out.println("______________________________");
         System.out.println("What resource do you want to replenish?");
         System.out.println("1) Milk");
@@ -33,7 +33,7 @@ public class Console {
         int resourcesCount = load.nextInt();
         Service.uploadResources(input, resourcesCount);
     }
-    public static void CoffeeMake() throws Exception{
+    public static void coffeeMake() throws Exception{
         System.out.println("______________________________");
         System.out.println("Choose which coffee you want");
         System.out.println("1) Cappuccino");
